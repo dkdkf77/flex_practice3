@@ -7,12 +7,15 @@
 ### item에 줄 수 있는 속성 들
 
 - flex-grow : 주 축의 너비가 즉 수평의 너비가 1:1:1 비율로 늘어난다. 기본 값 : 0
+
   ![스크린샷 2021-10-30 오후 3 52 30](https://user-images.githubusercontent.com/88579497/139524586-369203bd-f921-4cfe-9cc3-df594cfc8952.png)
 
 - 3번째 item에 flex-grow: 2 를 줬을 시
+
   ![스크린샷 2021-10-30 오후 3 55 24](https://user-images.githubusercontent.com/88579497/139524587-ef8d500a-3a03-479b-99c9-d435c9a3b336.png)
 
 - 1:1:1 비율이 아니게 된다. 그럴때는 flex-basis: 0;을 주게 되면 1:1:2 의 비율을 줄 수 있다.
+
   ![스크린샷 2021-10-30 오후 3 56 45](https://user-images.githubusercontent.com/88579497/139524591-b5ac3de2-cccf-41a3-b234-54556e22b23c.png)
 
 
@@ -51,9 +54,11 @@ auto - 요소 Content 너비 (내용의 너비)
 단위 - px,em, rem emd 등 단위로 지정
 
 - 0으로 사용 시
+
 <img width="612" alt="스크린샷 2021-10-30 오후 4 28 48" src="https://user-images.githubusercontent.com/88579497/139524655-c44915fb-d7f1-4350-a638-ec29c5d15559.png">
 
 - px 로 사용 시
+
 <img width="786" alt="스크린샷 2021-10-30 오후 4 29 40" src="https://user-images.githubusercontent.com/88579497/139524661-5540aca5-8e88-4596-953d-8d864f5532c5.png">
 
 
